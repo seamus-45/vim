@@ -8,6 +8,9 @@ set backspace=indent,eol,start
 
 " leader + l  отображение непечатаемых символов 
 nmap <leader>l :set list!<CR>
+"
+" leader + p переключить режим вставки 
+nmap <leader>p :set paste!<CR>
 
 " Работа буфферами
 " предыдущая вкладка
