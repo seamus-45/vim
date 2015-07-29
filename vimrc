@@ -37,6 +37,8 @@ Plugin 'vim-scripts/dbext.vim' " работа с базами данных (Orac
 " внешний вид
 Plugin 'bling/vim-airline' " строка статуса/состояния
 Plugin 'flazz/vim-colorschemes' " дополнительные цветовые схемы
+Plugin 'xolox/vim-colorscheme-switcher' " простое переключение тем
+Plugin 'xolox/vim-misc' " зависимость для ^
 
 " другое
 Plugin 'vim-scripts/HexHighlight.vim' " подсвечиват hex-коды в любых файлах по leader+F2 (gVim)
