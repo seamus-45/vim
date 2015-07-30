@@ -68,3 +68,5 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 " отключить выбор первой функции/метода при автодополнении в JediVim
 let g:jedi#popup_select_first = 0
 
+" настройки vmail
+let g:vmail_flagged_color = "ctermfg=red cterm=bold"
