@@ -1,6 +1,7 @@
 " vim: set filetype=vim:
 " --- Mail ---
-autocmd FileType mail set nonumber
+autocmd FileType mail set nonumber wh=40
+autocmd FileType vmailMessageList set winfixheight previewwindow previewheight=12
 " --- Python ---
 "autocmd FileType python set completeopt-=preview " раскомментируйте, в случае, если не надо, чтобы jedi-vim показывал документацию по методу/классу
 autocmd FileType python setlocal expandtab shiftwidth=4 tabstop=8
