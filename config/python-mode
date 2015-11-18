@@ -30,7 +30,7 @@ let g:pymode_syntax_indent_errors = g:pymode_syntax_all
 let g:pymode_syntax_space_errors = g:pymode_syntax_all
 
 " отключить autofold по коду
-let g:pymode_folding = 0
+let g:pymode_folding = 1
 
 " возможность запускать код
 let g:pymode_run = 0

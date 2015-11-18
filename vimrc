@@ -24,7 +24,7 @@ Plugin 'honza/vim-snippets' " репозиторий сниппетов
 
 " python
 Plugin 'klen/python-mode' " документация, подсветка, рефакторинг, дебаггер и др.
-Plugin 'davidhalter/jedi-vim' " автодополнение кода
+"Plugin 'davidhalter/jedi-vim' " автодополнение кода
 Plugin 'mitsuhiko/vim-jinja' " Поддержка синтаксиса шаблонов Jinja для vim
 Plugin 'mitsuhiko/vim-python-combined' " полезные фишки для Python 2/3
 
