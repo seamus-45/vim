@@ -1,7 +1,10 @@
 Для использования:
   git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  apt-get install vim.nox
   vim
   :PluginInstall
 
-По мотивам: http://habrahabr.ru/post/224979/
-
+Для генерации сниппетов:
+  cd ~/.vim/vim-snippets-salt
+  git clone https://github.com/saltstack/salt
+  ./gen-snippets.py -p salt/
