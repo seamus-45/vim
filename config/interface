@@ -1,24 +1,12 @@
 " vim: set filetype=vim:
 
-" внешний вид
-if has('gui_running')
-  "set t_Co=16
-  "set t_Co=256
-  colorscheme molokai
-  set background=dark " Цвет фона темный или светлый
-  let g:airline_theme='luna'
-  let g:airline_powerline_fonts = 1
-else
-  " внешний вид для vim в терминале
-  "set t_Co=16
-  set t_Co=256
-"  colorscheme 256-jungle
-  colorscheme molokai
-  let g:molokai_original = 1
-  let g:rehash256 = 1
-  set background=dark
-  let g:airline_theme='luna'
-endif
+" внешний вид для vim в терминале
+"set t_Co=16
+set t_Co=256
+colorscheme molokai
+let g:molokai_original = 1
+let g:rehash256 = 1
+set background=dark
 
 syntax on " включить подсветку кода
 set ttyfast " улучшенный вывод
@@ -45,28 +33,6 @@ if has('multi_byte')
   endif
 endif
 
-" раскомментируйте эти строки, если хотите, чтобы NERDTree/TagBar автоматически отображались при запуске vim
-" autocmd vimenter * TagbarToggle
-" " autocmd vimenter * NERDTree
-" " autocmd vimenter * if !argc() | NERDTree | endif
-
 " отключаем пищалку и мигание
 set visualbell t_vb= 
 set novisualbell    
-
-" дополнение имен файлов по TAB в командной строке VIM
-set wildmenu
-set wildmode=list:longest,full
-
-" настройки Vim-Airline
-set laststatus=2
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#show_buffers = 1
-let g:airline#extensions#tabline#show_tabs = 0
-let g:airline#extensions#tabline#formatter = 'unique_tail'
-
-" отключить выбор первой функции/метода при автодополнении в JediVim
-let g:jedi#popup_select_first = 0
-
-" настройки vmail
-let g:vmail_flagged_color = "ctermfg=red cterm=bold"
