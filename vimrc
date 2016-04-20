@@ -35,7 +35,8 @@ Plugin 'alvan/vim-closetag' " закрытие тегов при помощи >
 Plugin 'vim-scripts/dbext.vim' " работа с базами данных (Oracle, Sybase, Microsoft, MySQL, DBI,..)
 
 " внешний вид
-Plugin 'bling/vim-airline' " строка статуса/состояния
+Plugin 'vim-airline/vim-airline' " строка статуса/состояния
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'flazz/vim-colorschemes' " дополнительные цветовые схемы
 Plugin 'xolox/vim-colorscheme-switcher' " простое переключение тем
 Plugin 'xolox/vim-misc' " зависимость для ^
@@ -46,6 +47,7 @@ Plugin 'tpope/vim-surround' " инструмент для автозакрыти
 Plugin 'rosenfeld/conque-term' " вывод консоли в буффер vim
 Plugin 'fisadev/FixedTaskList.vim' " поиск в файле FIXME, TODO и т.п.
 Plugin 'danro/rename.vim' " Позволяет переименовывать файлы в буффере через команду rename
+Plugin 'terryma/vim-multiple-cursors' " Множественное выделение в стиле Sublime Text
 
 " vundle required
 call vundle#end()

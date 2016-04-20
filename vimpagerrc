@@ -3,7 +3,7 @@
 
 " If the text sent to the pager is smaller than the terminal window, 
 " then it will be displayed without vim as text. 
-let vimpager_passthrough = 1
+let vimpager_passthrough = 0
 
 " no x11 connection, a bit faster startup
 let vimpager_disable_x11 = 1
@@ -13,3 +13,5 @@ let vimpager_scrolloff = 999
 
 " To disable the use of AnsiEsc.vim
 let vimpager_disable_ansiesc = 1
+
+let vimpager_less_mode = 1
