@@ -24,9 +24,12 @@ Plugin 'honza/vim-snippets' " репозиторий сниппетов
 
 " python
 Plugin 'klen/python-mode' " документация, подсветка, рефакторинг, дебаггер и др.
-"Plugin 'davidhalter/jedi-vim' " автодополнение кода
+Plugin 'davidhalter/jedi-vim' " автодополнение кода
 Plugin 'mitsuhiko/vim-jinja' " Поддержка синтаксиса шаблонов Jinja для vim
 Plugin 'mitsuhiko/vim-python-combined' " полезные фишки для Python 2/3
+
+" lua
+Plugin 'vim-syntastic/syntastic' " lua checker and linter
 
 " html
 Plugin 'alvan/vim-closetag' " закрытие тегов при помощи >
@@ -62,5 +65,6 @@ source ~/.vim/config/common
 source ~/.vim/config/interface
 source ~/.vim/config/keys
 source ~/.vim/config/python-mode
+source ~/.vim/config/syntastic
 source ~/.vim/config/filetype
 source ~/.vim/config/dbext

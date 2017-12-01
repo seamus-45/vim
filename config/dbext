@@ -3,6 +3,8 @@
 " Настройки для модуля dbext
 let g:dbext_default_buffer_lines = 40
 let g:dbext_default_prompt_for_parameters=0
+let g:dbext_default_window_use_horiz = 0  " Use vertical split
+let g:dbext_default_window_width = 120
 
 " Макросы для dbext
-let @u = '0w"lyt 4ggyyp3x:read !makepasswd --count=1 --minchars=10 --maxchars=10"pywdd:read !date +\%d.\%m.\%Y"dy$dd5gg2t''"dp2f''"ppf=aTRUEf''"lp:1,$DBExecRangeSQL5ggdd'
+let @u = '0w"lyt 4ggyyp3x:read !makepasswd --count=1 --minchars=10 --maxchars=10"pywdd:read !date +\%d.\%m.\%Y"dy$dd5gg2t''"dp2f''"ppf=aTRUEf''"lp:1,$DBExecRangeSQL5ggdd3jf''l'
