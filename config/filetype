@@ -1,5 +1,7 @@
 " vim: set filetype=vim:
 " --- NGINX ---
-autocmd BufRead,BufNewFile /etc/nginx/*,/usr/local/nginx/conf/*,nginx.conf if &ft == '' | setfiletype nginx | endif
+autocmd BufRead,BufNewFile /etc/nginx/*,/etc/nginx/conf.d/*,nginx.conf set ft=nginx
+autocmd FileType nginx set noexpandtab tabstop=8 softtabstop=8 shiftwidth=0 " Configure tabs for company style
+
 " --- DHCPD ---
 autocmd BufRead,BufNewFile /etc/dhcpd/conf.d/*,dhcpd.conf if &ft == '' | setfiletype dhcpd | endif

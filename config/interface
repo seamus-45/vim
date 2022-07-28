@@ -3,8 +3,7 @@
 " внешний вид для vim в терминале
 "set t_Co=16
 set t_Co=256
-colorscheme molokai
-let g:molokai_original = 1
+colorscheme badwolf
 let g:rehash256 = 1
 set background=dark
 

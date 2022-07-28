@@ -1,30 +1,36 @@
 " vim: set filetype=vim:
 
-set enc=utf-8 " utf-8 по дефолту в файлах
-
-" отключаем бэкапы и своп-файлы
-set nobackup " no backup files
-set nowritebackup " only in case you don't want a backup file while editing
-set noswapfile " no swap files
-
-" Преобразование Таба в пробелы
-"set expandtab
-
-" Размер табулации по умолчанию
-set shiftwidth=2
-"set softtabstop=2
-set tabstop=2
-
-" Фолдинг по отсупам
-"set foldmethod=marker
-
-" Не выгружать буфер, когда переключаемся на другой
-" Это позволяет редактировать несколько файлов в один и тот же момент без необходимости сохранения каждый раз
-" когда переключаешься между ними
-set hidden
-
-" Включить автоотступы
-set autoindent
+"set nobackup            " Disable backup files
+"set nowritebackup       " Only in case you don't want a backup file while editing
+set autochdir            " Change directory where opened file from
+set autoindent           " Enable auto indent
+set smartindent          " Enable smart indent
+set completeopt-=preview " Do not show preview window at autocomplete
+set cursorline           " Highlight current line
+set enc=utf-8            " UTF-8 as default encoding
+set expandtab            " Expand tabs into spaces
+set foldmethod=marker    " Folding method
+set hidden               " Switch between buffers without saving
+set linebreak            " Do not break words when line wrapping
+set mouse-=a             " Disable select with mouse in visual mode
+set noshowmode           " Hide showmode because of the powerline plugin
+set noswapfile           " Disable swap files
+set number               " Line numbers are good
+set relativenumber       " Show numbers relative to current line
+set scrolloff=15         " Number of lines from edge to start scrolling
+set shiftround           " Round indent to multiple of 'shiftwidth'
+set shiftwidth=0         " Number of spaces to use for each step of (auto)indent. When zero the 'ts' value will be used.
+set shortmess+=I         " Do not give the intro message when starting Vim
+set showcmd              " Show incomplete cmds down the bottom
+set softtabstop=4        " Number of spaces that a <Tab> counts for while performing editing operations, like inserting a <Tab> or using <BS>
+set splitbelow           " Split the new window below the current one
+set splitright           " Split the new window right of the current one
+set synmaxcol=800        " Don't try to highlight lines longer than 800 characters
+set tabstop=4            " Number of spaces that a <Tab> in the file counts for
+set title                " Show title
+set undodir=~/.vim/undo  " Set undo directory
+set undofile             " Enable undo file
+set modeline             " Enable modeline
 
 " автокомплит
 set omnifunc=syntaxcomplete#Complete

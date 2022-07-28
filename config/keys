@@ -26,6 +26,12 @@ imap <F2> <esc>:w<cr>i
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
+" перейти к следующему буфферу
+nnoremap gj :bn<cr>
+
+" перейти к предыдущему буфферу
+nnoremap gk :bp<cr>
+
 " < & > - делаем отступы для блоков
 vmap < <gv
 vmap > >gv
